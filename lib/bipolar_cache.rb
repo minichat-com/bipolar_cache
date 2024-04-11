@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "bipolar_cache/version"
+require_relative "bipolar_cache/sequel/plugin_alpha"
 
 module BipolarCache
   class Error < StandardError; end
