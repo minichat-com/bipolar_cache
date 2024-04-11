@@ -4,7 +4,7 @@ module BipolarCache
   module Sequel
     module PluginAlpha
       module ClassMethods
-        def instance_dataset_bipolar_count_cache(name, **opts)
+        def bipolar_count_cache(name, **opts)
           opts = opts.merge({ name: name })
           method_name = opts[:method] || "#{name}_count"
 
